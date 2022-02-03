@@ -87,7 +87,8 @@ img {
   #steps .row > .central,
   #steps .row > .right,
   #lezioni .row > .left,
-  #lezioni .row > .right{
+  #lezioni .row > .right,
+  hr{
     width: 100%;
     margin-bottom: 1rem;
   }
