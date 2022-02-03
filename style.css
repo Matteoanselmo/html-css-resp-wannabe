@@ -87,14 +87,15 @@ img {
   #steps .row > .central,
   #steps .row > .right,
   #lezioni .row > .left,
-  #lezioni .row > .right,
-  hr{
+  #lezioni .row > .right{
     width: 100%;
     margin-bottom: 1rem;
   }
-
-  #lezioni .row,
-  #why .row{
+  hr{
+    margin-bottom: 1rem;
+  }
+  #lezioni,
+  #why{
     background-color: rgb(242, 242, 205);
   }
 
@@ -104,9 +105,11 @@ img {
   #why .row > .third{
     margin: 0;
   }
+  #why{
+    padding: 1rem;
+  }
   .container.grey{
     display: flex;
-    padding: 1rem;
   }
   img{
     height: 150px;
